@@ -1,0 +1,12 @@
+# 配置user模块下的公共属性，不管是dev环境、prod环境的配置文件，都会拉取本配置文件的基本配置
+# 开启所有actuator-endpoint
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        exclude: '*'
+  security:
+    enabled: false
