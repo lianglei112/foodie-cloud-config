@@ -8,7 +8,7 @@ mariadb:
 # 功能开关 —— 开启/关闭注册功能（开关一旦开启，注册功能关闭）
 userservice:
   registration:
-    disabled: true
+    disabled: false
 
 
 # actuator端点
